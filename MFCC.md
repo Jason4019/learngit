@@ -1,6 +1,6 @@
 # MFCC
 ## 读取语音
-1. 读取语音后是一段随着时间变化的幅度值
+1. 读取语音后是一段随着时间变化的幅度值<br>
 	假设y=f(t).t是时间,y是振幅.<br>
 	在python中,使用sample_rate,signal=scipy.io.wavfile.read('OSR_us_000_0010_8k.wav')读取<br>
 	signal就是y,t从0S到语音结束.注意这里的y是离散的点数值不再是连续的语音.<br>
